@@ -14,7 +14,6 @@ Then restart pi or run `/reload`.
 
 - `/pin [title]` pins the last assistant message.
 - `Ctrl+Shift+P` pins the last assistant message.
-- `/pins` opens pinned messages.
 - In `/tree`, `Shift+P` toggles a pin on the selected message.
 - In `/tree`, `Ctrl+P` filters to pinned messages.
 - In `/tree`, `Ctrl+V` previews the selected message.
