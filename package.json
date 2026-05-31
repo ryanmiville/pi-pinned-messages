@@ -1,0 +1,50 @@
+{
+  "name": "pi-pinned-messages",
+  "version": "0.1.0",
+  "description": "Pinned messages extension for pi.",
+  "type": "module",
+  "private": false,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanmiville/pi-pinned-messages.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ryanmiville/pi-pinned-messages/issues"
+  },
+  "homepage": "https://github.com/ryanmiville/pi-pinned-messages#readme",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "pi-extension",
+    "pinned-messages"
+  ],
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "pi": {
+    "extensions": [
+      "./src/index.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  },
+  "peerDependenciesMeta": {
+    "@earendil-works/pi-coding-agent": {
+      "optional": true
+    },
+    "@earendil-works/pi-tui": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@earendil-works/pi-coding-agent": "latest",
+    "@earendil-works/pi-tui": "latest",
+    "typescript": "^5.8.3"
+  }
+}
